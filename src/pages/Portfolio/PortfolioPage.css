@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+.wrapperP {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
+    justify-content: center;
+    position:relative;
+    top: 50px;
+    padding-bottom: 150px;
+    animation: 2s ease-out 0s 1 slideDownAnimation;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 1050px) {
+    .wrapperP {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .wrapperP {
+        grid-template-columns: repeat(1, auto);
+    }
+}
+
+@keyframes slideDownAnimation {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.card_p {
+    overflow: hidden;
+    background-color: lightgray;
+    box-shadow: 0 2px 20px #e1e5ee;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    height: 475px;
+    max-width: 250px;
+    animation: 2s ease-out 0s 1 fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.card__image {
+    height: 17rem;
+    width: 100%;
+    object-fit: cover;
+}
+  
+.card__title {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: blueviolet;
+}
+  
+.card__description {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: blueviolet;
+}
+.bottom {
+    justify-content: center;
+    display: flex;
+}
+  
+.card__btn {
+    padding: 1rem 2rem 1rem 2rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 1rem 3.25rem;
+    border: 2px solid blueviolet;
+    background: transparent;
+    background-color: white;
+    color: blueviolet;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+}
+  
+.card_p:hover {
+    transform: scale(1.02);
+}
+  
+.card_p:hover .card__btn {
+    background: blueviolet;
+    color: white;
+}

@@ -1,0 +1,25 @@
+.FAQ {
+    position: relative;
+    padding-bottom: 150px;
+    animation: 2s ease-out 0s 1 slideDownAnimation;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+@media only screen and (max-width: 350px) {
+    .FAQ {
+        padding-right: 0%;
+        padding-left: 25%;
+    }
+}
+
+/* Color is not changing fix later */
+@keyframes slideDownAnimation {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

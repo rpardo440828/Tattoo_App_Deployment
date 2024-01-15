@@ -1,0 +1,37 @@
+.footer {
+    width: 100%;
+    height: 100px;
+    /* background-color: #121619; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(53, 52, 52);
+}
+
+.socialMedia svg {
+    color: white;
+    margin: 10px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.socialMedia svg:hover{
+    color: #FF00FF;
+}
+
+.copy {
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.footer p{
+    text-align: center;
+    padding-bottom: 15px;
+}

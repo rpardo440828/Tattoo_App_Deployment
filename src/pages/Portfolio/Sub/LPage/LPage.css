@@ -1,0 +1,20 @@
+.wrapperL {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1rem;
+    justify-content: center;
+    position:relative;
+    padding-bottom: 150px;
+}
+
+@media only screen and (min-width: 725px) and (max-width: 1100px) {
+    .wrapperL {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    .wrapperL {
+        grid-template-columns: repeat(1, auto);
+    }
+}

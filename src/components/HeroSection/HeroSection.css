@@ -1,0 +1,83 @@
+.Hero {
+    justify-content: left;
+    width: 40%;
+    height: fit-content;
+    flex: 50%;
+    animation: 2s ease-out 0s 1 slideUpAnimation;
+    color: white;
+}
+
+@media only screen and (max-width: 575px) {
+    .Hero {
+        width: 100%;
+    }
+    .Hero .Title {
+        font-size: 40px;
+    }
+    .Hero .AboutMe {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 575px) {
+    .Hero .Title {
+        font-size: 50px;
+    }
+    .Hero .AboutMe {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+/*Make hero section slide up into place on screen load*/
+@keyframes slideUpAnimation {
+    0% {
+        transform: translateY(100%);
+        color: blueviolet;
+    }
+    50% {
+        color: blueviolet;
+    }
+    100% {
+        transform: translateY(0);
+        color: white;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+.Hero .Title {
+    font-size: 60px;
+}
+
+.Hero .AboutMe {
+    font-size: 27px;
+    font-weight: bold;
+}
+}
+
+.b {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0 9px white;
+}
+
+.b:hover {
+    background-color: #5b0a8a;
+}
+
+.b:active {
+    background-color: blueviolet;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+}

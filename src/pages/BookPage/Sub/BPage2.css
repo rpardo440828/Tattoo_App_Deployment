@@ -1,0 +1,15 @@
+/* .left {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+} */

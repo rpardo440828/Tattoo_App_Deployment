@@ -18,6 +18,6 @@
 
 @media only screen and (max-width: 725px) {
     .wrapperM {
-        grid-template-columns: repeat(1, auto);
+        grid-template-columns: repeat(2, auto);
     }
 }

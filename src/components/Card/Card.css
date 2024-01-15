@@ -21,6 +21,13 @@
     }
 }
 
+@media only screen and (max-width: 725px) {
+    .Card {
+        height: 17rem;
+        width: 200px;
+    }
+}
+
 .Card__body {
     height: 100%;
     display: flex;

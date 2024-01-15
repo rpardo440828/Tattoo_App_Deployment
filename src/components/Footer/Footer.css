@@ -16,11 +16,12 @@
 
 @media only screen and (max-width: 768px) {
     .footer {
-        height: 75px;
+        height: 60px;
     }
 
     .socialMedia svg {
         font-size: 25px;
+        margin: 0px;
     }
     .copy {
         font-size: 10px;
@@ -30,6 +31,7 @@
 @media only screen and (min-width: 768px) {
     .socialMedia svg {
         font-size: 50px;
+        margin: 10px;
     }
     .copy {
         font-size: 20px;
@@ -38,7 +40,6 @@
 
 .socialMedia svg {
     color: white;
-    margin: 10px;
     cursor: pointer;
 }
 

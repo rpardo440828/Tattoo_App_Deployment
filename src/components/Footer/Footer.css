@@ -14,10 +14,31 @@
     background-color: rgb(53, 52, 52);
 }
 
+@media only screen and (max-width: 768px) {
+    .footer {
+        height: 75px;
+    }
+
+    .socialMedia svg {
+        font-size: 25px;
+    }
+    .copy {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .socialMedia svg {
+        font-size: 50px;
+    }
+    .copy {
+        font-size: 20px;
+    }
+}
+
 .socialMedia svg {
     color: white;
     margin: 10px;
-    font-size: 50px;
     cursor: pointer;
 }
 
@@ -28,7 +49,6 @@
 .copy {
     color: white;
     margin: 5px;
-    font-size: 20px;
 }
 
 .footer p{

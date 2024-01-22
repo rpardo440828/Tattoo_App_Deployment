@@ -25,7 +25,7 @@ const data = {
 
     {
         title: "Is there a cancellation fee?",
-        content: "If you cancel within 48 hours there will be no fee and you will receive your deposit back. Same day cancellations will not be able to get deposit back."
+        content: "No cancellation fee, however deposits are nonrefundable unless changes to the appointment were made by me."
     },
   ],
 };

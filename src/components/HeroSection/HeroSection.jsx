@@ -14,8 +14,8 @@ const HeroSection = () => {
             What Does BE EZ Mean?<br />
         </h1>
         <p className="AboutMe">
-            Be Calm<br />
-            Be Peace<br />
+            Be Patient<br />
+            Be Understanding<br />
             Be Easy.<br />
             I started tattooing as an escape from my mind and as a coping skill
             from my depression, anger, and anxiety. It started as just something

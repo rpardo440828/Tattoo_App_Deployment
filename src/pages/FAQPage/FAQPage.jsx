@@ -20,7 +20,7 @@ const data = {
 
     {
         title: "Is there a late fee?",
-        content: "You will have a 10 min grace period, after that there will be a $25 late fee charge. After 20 min your appointment will be canceled and you will not get your deposit back. A new deposit will be required for a new appointment."
+        content: "If no contact is made an hour prior, then the appointment will be cancelled and rescheduling will be necessary. A new deposit will be required for a new appointment."
     },
 
     {
